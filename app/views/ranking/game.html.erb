@@ -1,0 +1,11 @@
+<h1>Ranking#game</h1>
+
+<%= form_for @ranking do |f| %>
+  <div>
+    <%= f.label :nickname_player1 %>
+    <%= f.text_field :name_player1 %>
+    <%= f.label :nickname_player2 %>
+    <%= f.text_field :name_player2 %>
+  </div>
+  <%= f.submit %>
+<% end %>
