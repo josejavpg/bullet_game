@@ -3,8 +3,9 @@ class Ranking < ApplicationRecord
     RandomGenerator.randomAttack()
   end
   def pointsCalculator(victory)
-    
+    victory ? 3 : 1
   end
+
 end
 
 class RandomGenerator   
